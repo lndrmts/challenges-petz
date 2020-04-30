@@ -1,9 +1,14 @@
+# Aplicação de Teste de Frontend para a Petz
+
+
 ### Este é um Projeto foi criado com [Next.js](https://nextjs.org/)
 
 *Outras ferramentas utilizadas*
 - Styled-components
 - Axios
 
+## Esta aplicação pode ser vizualizada no link abaixo
+https://petz-qv3u5vjpp.now.sh/
 
 ## Como rodar a aplicação
 
