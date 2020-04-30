@@ -93,6 +93,11 @@ function Home({ data }) {
         <Filter handleChange={handleChange} users={users} />
         {posts.map((post) => (
           <Post key={post.id}>
+            {users.map((user) => (
+              <p>
+                <small>{user.id === post.id ? `por: ${user.name}` : ""}</small>
+              </p>
+            ))}
             <h1>{post.title}</h1>
             <p>{post.body}</p>
             <Button
